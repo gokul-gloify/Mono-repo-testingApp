@@ -1,13 +1,9 @@
-# dependencies
+.cache
+.idea
 node_modules
-/node_modules
-/node_modules/.cache
-/.pnp
-.pnp.js
+yarn-error.log
 
-# testing
-/coverage
-
-# production
-/build
-
+# Build directory
+# **/public
+**/.cache
+.DS_Store
